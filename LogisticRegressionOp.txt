@@ -1,0 +1,61 @@
+true labels	 predicted labels
+
+fold k=1
+JulesVerne	JulesVerne
+JulesVerne	JulesVerne
+JulesVerne	JulesVerne
+JulesVerne	MarkTwain
+
+fold k=2
+JulesVerne	JulesVerne
+JulesVerne	MarkTwain
+JulesVerne	JulesVerne
+JulesVerne	JulesVerne
+
+fold k=3
+JulesVerne	charlesDickens
+JulesVerne	charlesDickens
+MarkTwain	MarkTwain
+MarkTwain	charlesDickens
+
+fold k=4
+MarkTwain	MarkTwain
+MarkTwain	charlesDickens
+MarkTwain	MarkTwain
+MarkTwain	charlesDickens
+
+fold k=5
+MarkTwain	JulesVerne
+MarkTwain	charlesDickens
+MarkTwain	JulesVerne
+MarkTwain	charlesDickens
+
+fold k=6
+charlesDickens	charlesDickens
+charlesDickens	shakespeare
+charlesDickens	MarkTwain
+charlesDickens	JulesVerne
+
+fold k=7
+charlesDickens	charlesDickens
+charlesDickens	charlesDickens
+charlesDickens	MarkTwain
+charlesDickens	MarkTwain
+
+fold k=8
+charlesDickens	JulesVerne
+charlesDickens	charlesDickens
+shakespeare	shakespeare
+shakespeare	shakespeare
+
+fold k=9
+shakespeare	shakespeare
+shakespeare	shakespeare
+shakespeare	charlesDickens
+shakespeare	shakespeare
+
+fold k=10
+shakespeare	shakespeare
+shakespeare	shakespeare
+shakespeare	shakespeare
+shakespeare	shakespeare
